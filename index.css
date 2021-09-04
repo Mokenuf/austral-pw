@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: "Cinzel Decorative";
+    background-color: #fafafa;
 }
 
 .main-div {
@@ -18,11 +19,16 @@ body{
 }
 
 .navbar{
-    background-color: lightblue;
+    background-color: #25a59a;
     height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+}
+
+.nav-detail{
+    background-color: #00756c;
+    height: 20px;
 }
 
 .navbar-element{
@@ -30,21 +36,14 @@ body{
     margin-right: 10px;
 }
 
-.container {
-    display: flex;
-    flex-direction: row;
-    background-color: gray;
-    justify-content: center;
-    align-items: center;
-}
 
 .contents{
     display: flex;
     flex-direction: column;
-    padding: 10px; /*distancia hacia adentro*/
-    margin: 20px; /*distancia desde afuera*/
+    padding: 10px; /*distancia desde el div hacia el content*/
+    margin: 20px; /*distancia desde afuera hacia el div*/
     border-radius: 15px;
-    background-color: lightblue;
+    background-color: #e0e0e0;
 }
 
 .long-desc{
