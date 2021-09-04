@@ -24,6 +24,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    box-shadow: 0px 10px 5px grey; /*creo una sombra para la caja, el orden es alto - ancho - blur - color*/
 }
 
 .nav-detail{
@@ -44,6 +45,7 @@ body{
     margin: 20px; /*distancia desde afuera hacia el div*/
     border-radius: 15px;
     background-color: #e0e0e0;
+    box-shadow: 10px 10px 5px grey;
 }
 
 .long-desc{
