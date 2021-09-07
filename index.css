@@ -20,11 +20,13 @@ body{
 
 .navbar{
     background-color: #25a59a;
+    top: 0;
     height: 50px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     box-shadow: 0px 10px 5px grey; /*creo una sombra para la caja, el orden es alto - ancho - blur - color*/
+    position: sticky;
 }
 
 .nav-detail{
@@ -33,10 +35,22 @@ body{
 }
 
 .navbar-element{
-    margin-left: 20px;
+    margin-left: 5px;
     margin-right: 10px;
 }
 
+.navbar-button:hover{
+    background-color: #00756c;
+}
+.navbar-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-things {
+    display: flex;
+}
 
 .contents{
     display: flex;
