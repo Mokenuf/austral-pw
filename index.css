@@ -9,13 +9,17 @@ body{
     margin-left: 20px;
 }
 .custom-title {
+    display: flex;
     font-size: 60px;
+    justify-content: center;
 }
 
 .description{
+    display: flex;
     font-weight: bold;
     color: gray;
     margin-top: 0px;
+    justify-content: center;
 }
 
 .navbar{
@@ -52,12 +56,31 @@ body{
     display: flex;
 }
 
+.content-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .contents{
     display: flex;
     flex-direction: column;
     padding: 10px; /*distancia desde el div hacia el content*/
     margin: 20px; /*distancia desde afuera hacia el div*/
     border-radius: 15px;
+    width: 800px;
+    background-color: #e0e0e0;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.teachers{
+    display: flex;
+    flex-direction: column;
+    padding: 10px; /*distancia desde el div hacia el content*/
+    margin: 20px; /*distancia desde afuera hacia el div*/
+    border-radius: 15px;
+    width: 800px;
     background-color: #e0e0e0;
     box-shadow: 10px 10px 5px grey;
 }
